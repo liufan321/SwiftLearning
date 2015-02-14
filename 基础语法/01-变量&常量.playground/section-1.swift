@@ -22,6 +22,7 @@ var intResult2 = intValue1 + Int(doubleValue)
 
 // 2. 常量
 // `let` 用于定义常量，表示内容一经设置，不允许修改
+// 在实际开发中，为了保证安全，应该尽量先使用 `let`，如果真的确认需要修改，再改为 `var`
 let constValue = 100
 
 // 以下语句试图修改一个常量，会报错
