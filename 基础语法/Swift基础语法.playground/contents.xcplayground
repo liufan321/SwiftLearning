@@ -4,6 +4,7 @@
         <page name='001-变量和常量'/>
         <page name='002-可选项'/>
         <page name='003-控制流'/>
+        <page name='004-可选项判断'/>
         <page name='License'/>
     </pages>
 </playground>
