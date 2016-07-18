@@ -31,7 +31,7 @@ dict1.updateValue(108, forKey: "age")
 dict1
 
 // 2.3 删除一个键
-dict1.removeValueForKey("age")
+dict1.removeValue(forKey: "age")
 dict1
 
 // 2.4 添加一个键值对
@@ -41,7 +41,7 @@ dict1
 //------------------------------------------------------------------------------
 // 3. 遍历
 for (k, v) in dict1 {
-    println("key - \(k), value - \(v)")
+    print("key - \(k), value - \(v)")
 }
 
 //------------------------------------------------------------------------------
