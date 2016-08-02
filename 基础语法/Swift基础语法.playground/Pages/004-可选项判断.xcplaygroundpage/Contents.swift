@@ -33,7 +33,8 @@ print((x ?? 0) + (y ?? 0))
 let name: String? = "Mike"
 let age: Int? = 18
 
-if let name = name, age = age {
+if let name = name,
+    let age = age {
     print("\(name) 今年 \(age) 岁")
 } else {
     print("姓名或者年龄为 nil")
@@ -52,11 +53,12 @@ if let name = name, age = age {
  */
 
 func demo(name: String?, age: Int?) {
-
-    guard let name = name, age = age else {
-        print("姓名或者年龄为 nil")
-        
-        return
+    
+    guard let name = name,
+        let age = age else {
+            print("姓名或者年龄为 nil")
+            
+            return
     }
     
     print("\(name) 今年 \(age) 岁")
